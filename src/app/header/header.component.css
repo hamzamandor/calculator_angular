@@ -1,0 +1,20 @@
+/* Style pour le header */
+header {
+    text-align: center;  
+    margin: 3rem auto;
+    background-color: rgb(25, 30, 26); /* Couleur dorée */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+header img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #ffffff; /* Texte blanc pour contraster avec le fond doré */
+}
