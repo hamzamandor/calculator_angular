@@ -1,0 +1,77 @@
+/* Style général pour le tableau */
+table {
+    width: 100%;
+    max-width: 80rem; /* Ajustez selon vos besoins */
+    margin: 2rem auto; /* Centrer horizontalement avec espacement vertical */
+    padding: 1rem;
+    border-collapse: separate; /* Permet d'ajouter des ombres */
+    border-spacing: 0; /* Supprime l'espacement entre les cellules */
+    border-radius: 10px; /* Coins arrondis pour un effet plus doux */
+    overflow: hidden; /* Évite le débordement du contenu */
+    animation: colorChange 10s infinite; /* Animation des couleurs clignotantes */
+  }
+  
+  /* Style pour les en-têtes du tableau */
+  thead {
+    background: linear-gradient(135deg, #4CAF50, #388E3C); /* Dégradé de couleur pour l'en-tête */
+    color: white;
+  }
+  
+  /* Style pour les cellules du tableau */
+  th, td {
+    padding: 1rem;
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left;
+  }
+  
+  /* Style pour les lignes du tableau */
+  
+  
+  tbody tr:hover {
+    background: #32f00c; /* Couleur de fond au survol */
+  }
+  
+  /* Animation des couleurs clignotantes */
+  @keyframes colorChange {
+    0% {
+      background: linear-gradient(45deg, #FF5733, #FFC300);
+    }
+    10% {
+      background: linear-gradient(45deg, #FFBD00, #FF6F61);
+    }
+    20% {
+      background: linear-gradient(45deg, #FF8C00, #FF6347);
+    }
+    30% {
+      background: linear-gradient(45deg, #FF4500, #FF1493);
+    }
+    40% {
+      background: linear-gradient(45deg, #DC143C, #FF00FF);
+    }
+    50% {
+      background: linear-gradient(45deg, #C71585, #FF69B4);
+    }
+    60% {
+      background: linear-gradient(45deg, #DB7093, #FF1493);
+    }
+    70% {
+      background: linear-gradient(45deg, #FFB6C1, #FF6347);
+    }
+    80% {
+      background: linear-gradient(45deg, #FF69B4, #FF4500);
+    }
+    90% {
+      background: linear-gradient(45deg, #FF1493, #FF4500);
+    }
+    100% {
+      background: linear-gradient(45deg, #FF6347, #FF5733);
+    }
+  }
+  
+  /* Centrer le texte des messages */
+  .center {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
